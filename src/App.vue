@@ -12,8 +12,8 @@ export default {
 }
 </script>
 
-<style>
-.example {
-  color: red;
-}
+<style lang="scss">
+    @import "tailwindcss/base";
+    @import "tailwindcss/components";
+    @import "tailwindcss/utilities";
 </style>
